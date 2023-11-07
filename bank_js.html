@@ -1,0 +1,236 @@
+<!doctype>
+<html>
+    <head>  <link rel="stylesheet" href="js.css">
+               <script src="javascript.html"></script>
+        <title>Bank Account Registration Form</title>
+          <style>
+            
+            .tac
+            {
+                color:blue;
+            }
+             .img1
+             {
+                float:left;
+             }
+             .clearfix
+             {
+               overflow:auto;
+             }
+             .address
+             {
+               text-align:right;
+             }
+             .clearfix
+             {
+               overflow:auto;
+             }
+             .flex-container
+             {
+                display:flex;
+                background-color: rgb(0, 8, 255);
+            }
+            .flex-container > div
+            {
+                
+                width:350px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                padding:10px 45px;
+            }
+            .star
+            {
+              color:red;
+            }
+            body
+            {
+              cursor:crosshair;
+            }
+            .h
+            {
+              font-size:28px;;
+            }
+            .f
+            {
+              font-size:20px;
+            }
+            body
+            {
+              background:linear-gradient(125deg,#8d2578,#296bd5);
+            }
+          
+          </style>
+    </head>
+</html>
+<body>
+    
+    <br>        
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="clearfix">
+     <img class="img1" src="triangle.jpg" width="100px" height="100px" alt="image"><b class="shade" style="font-size:45px">ACME GLOBAL</b><br>
+     investment company</div><p class="address"><b>ACME GLOBAL</b><br>
+        123 Maple Street Anytown,<br>PA 17101<br>
+        info@example.com<br>
+        www.example.com<br>
+        (123) 1234567<br>
+        <div class="flex-container">
+            <div><a href="about"><i style="color:white;">About</i></a></div>
+            <div><a href="Template"><i style="color:white;">Template</i></a></div>
+            <div><a href="Support"><i style="color:white;">Support</i></a></div>
+            <div><a href="Enterprise"><i style="color:white;">Enterprise</i></a></div>
+            <div><a href="Pricing"><i style="color:white;">Pricing</i></a></div>
+            <div><a href="css form.html"><i style="color:white"><u class="log"> LOGIN </u></i></a></div>
+        </div><br><br>
+
+    
+        <h2>Banking Application Forms</h2>
+            
+        <p>Whether your clients are looking to open an account, close an account, 
+            or apply for a debit or credit card, remove unnecessary paperwork from 
+            your workflow by taking your bank applications online with a free Banking Application Form. 
+            Simply choose a template below to get started, customize it for a personalized look, and embed
+             it in your bank or financial institution’s website to more efficiently process banking applications online.
+              It’s a simple way to streamline your application process, save time and paperwork, and encourage more applications — all at once.
+            
+            Believe it or not, you can create a custom form for your financial institution without breaking the bank — our Form 
+            Builder is not only easy to use, it’s free to use too! Our banking application forms already look great, but you’re 
+            welcome to change the background image, add your logo, and integrate with third-party applications for a better look 
+            and function. Why not link your form to Google Sheets to keep a detailed record of all applications? Or integrate with 
+            a CRM system like HubSpot or Salesforce (also available on Salesforce AppExchange) to automatically create a new contact
+            for each application? By taking your bank applications online with a free Banking Application Form template, your 
+            financial institution can save time and money while instantly boosting its efficiency.</p>
+
+            <h1>BANK ACCOUNT REGISTRATION FORM</h1>
+<div class="reg form">
+  <form name="myform" method="post"   onsubmit="return validateform()">
+    <fieldset>
+      
+        <h2 style="font-size:35px;">Account Information</h2><br>
+
+        <div class="align">
+        <p style="font-size:25px;">Account Type</p> 
+        <select name="Account type" name="Account type">
+        <option value="MMA"><p class="ai">A Money Market Account</p></option>
+        <option value="CA"><p class="ai">Checking Account</p></option>
+        <option value="SA"><p class="ai">Saving Account</p></option>
+        <option value="IRA"><p class="ai">IRA Account</p></option>
+        <option value="DD"><p class="ai">Demand Draft</p></option>s
+        </select>
+        
+        <p style="font-size:25px;">Currency Type</p> 
+        <select name="Currency type" name="Currency type">
+        <option value="MMA"><p class="ai">USD</p></option>
+        <option value="CA"><p class="ai">EUR</p></option>
+        <option value="SA"><p class="ai">GBP</p></option>
+        <option value="IRA"><p class="ai">CAD</p></option>
+        <option value="DD"><p class="ai">KWD</p></option>
+        </select></div>
+        <br><br>
+
+        <p class="h" style="color:indigo">Personal information</p>
+        <p class="f"><i>Information given in this section is considered
+         as the information of the primary account owner information.</i></p>
+
+         <br><br>
+
+         <p style="font-size:25px;"><b>Name</b></p>
+
+        <div class="name">
+         
+         <p>surname</p>
+         <input type="text" name="Surname" placeholder="please enter....." size="30px">
+
+         <p>First name</p>
+         <input type="text" name="First name" placeholder="please enter....." size="30px" >
+        
+         <p>Last name</p>
+         <input type="text" name="Last name" placeholder="please enter....." size="30px">
+
+        </div><br><br><br><br><br>
+
+        <div class="date">
+         <p style="font-size:25px;">Phone Number</p>
+         <input type="number" name="number" size="50px" placeholder="(000) 000-000" >
+         <p style="font-size:25px;">Date Of Birth</p>
+         <input type="date" name="Date of Birth"></div>
+         
+         <br><br><br><br>
+        
+         <p style="font-size:25px;">Residential Address</p>
+         <textarea id="address" name="address"></textarea><br>street address<br><br>
+         <textarea id="address" name="address"></textarea><br>street address line <br><br><br><br><br>
+         
+        <div class="city">
+         &nbsp;&nbsp;&nbsp;City / Town<input type="text" id="city" size="50px">
+         State/Province<input type="text" name="state" size="50px">
+        </div>
+        <br><br><br>
+        <div class="post">
+         Postal/Zip <input type="text" name="picode" size="50px">
+         Country<input type="text" name="country" size="50px"></div><br><br><br>
+
+        
+         <p style="font-size:25px;">Citizenship</p>
+         <input type="checkbox" name="Citizenship">US citizenship<br>
+         <input type="checkbox" name="Citizenship">EU citizenship<br>
+         <input type="checkbox" name="Citizenship">Others
+ 
+         <p style="font-size:25px;">Marital Status</p>
+         <select name="Marital Status" id="Currency type">
+            <option value="MMA">Married</option>
+            <option value="CA">Single</option>
+            <option value="SA">Divorced</option>
+            <option value="IRA">widowed</option>
+            <option value="sep">Separate</option>
+         </select>  
+         
+         <br><br><br>
+         
+         <div class="marital">
+        <p style="font-size:25px;">Occupation</p>
+        <input type="text" name="Occupation" size="50px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <p style="font-size:25px;">Employer Name</p>
+        <input type="text" name="Employer Name" size="50px">
+         </div>
+<br><br><br>
+        <p style="font-size:20px;">Do you want to add joint owner to the bank account</p>
+        <input type="radio" name="yes" value="yes">Yes
+        <input type="radio" name="yes" value="no">No<hr>
+
+        <h1><u>Joint Owner Information</u></h1><br>
+        <p>By signing this form, I acknowledge that the information
+            I've given in this form is accurate and I agree all the 
+            terms and conditions.</p><br><br>
+
+        <input type="checkbox" name="checkbox" required>I agree to <a href="checkbox"><u class="tac">terms and conditions</u></a><b class="star">*</b><br>   
+        
+        <p style="font-size:20px;">Date</p>
+        <Input type="date" name="date"><br>date
+            <center>
+              <div class="button">
+                <button type="submit" name="SUBMIT">SUBMIT</button>
+                <button type="reset" name="RESET">RESET</button>
+
+              </div> 
+            </center>
+      
+
+            
+            
+
+            
+         
+
+
+
+         
+
+     </fieldset>
+
+  </form> 
+  
+
+</div>       
+     
+
+</body></html>
